@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HomeSensorが扱う記録データとGoogle Driveへのアクセス、その利用・保存・削除について説明します。">
+  <title>プライバシーポリシー — HomeSensor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./"><span class="mark" aria-hidden="true">H</span>HomeSensor</a><nav aria-label="メイン"><a href="./">アプリについて</a></nav></header>
+  <main class="policy">
+    <p class="eyebrow">DATA &amp; PRIVACY</p>
+    <h1>プライバシーポリシー</h1>
+    <p class="muted">最終更新：2026年10月25日</p>
+    <p>HomeSensorは、運用者本人が環境記録の保存に利用するアプリです。本ポリシーは、HomeSensorによる記録データおよびGoogleユーザーデータの取扱いを説明します。</p>
+    <section><h2>1. 取り扱うデータと利用目的</h2><p>温度・湿度、スマートプラグのON/OFF、機器の識別情報・表示名、取得日時、地域の気象情報、および運用者が入力した観察メモを取り扱います。植物や住環境の変化を記録・分析するために利用します。プラグのONは実際の発熱や消費電力を意味せず、気象情報は自宅での実測値とは区別します。</p></section>
+    <section><h2>2. Googleへのアクセスと使用範囲</h2><p>GoogleのOAuth認証を用いて、運用者本人のGoogle Driveに記録ファイルを保存します。要求するスコープは<code>https://www.googleapis.com/auth/drive.file</code>です。このアプリで作成するファイル・フォルダのアップロード、読戻し、保存状態の確認に使用します。既存の無関係なDriveファイル、Gmail、連絡先を取得するための権限は要求しません。</p><p>Google APIを通じて取得した情報は、上記の記録保存機能に必要な範囲でのみ利用します。Google APIから受領した情報の利用および他のアプリへの転送には、Limited Useの要件を含む<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>を適用します。</p></section>
+    <section><h2>3. 保存と保持期間</h2><p>送信待ちの記録は運用者の機器内で一時的に保持し、Google Driveへの送信に成功した分を一時記憶領域から削除します。Drive上の保存ファイルは、運用者が削除するまで保持します。移行前の記録や運用者が別途作成したバックアップは、運用者が個別に管理します。</p><p>Googleのアクセストークン・更新トークン等の認証情報は、運用者の機器内で所有者だけが読める設定ファイルに保存します。認証情報を記録CSVやこのWebサイトに含めません。</p></section>
+    <section><h2>4. 第三者への提供</h2><p>記録ファイルの保存と認証のためGoogleのサービスを利用します。気象情報の取得にはOpen-Meteoを利用し、地域の代表地点を送信します。各サービスの利用に伴い、接続元IPアドレス等の通信情報が提供者に渡る場合があります。Googleから取得した情報を、広告配信や販売、AIモデルの学習のために提供しません。記録ファイルの公開・共有は運用者が自ら設定した場合に限ります。</p></section>
+    <section><h2>5. アクセスの取消しと削除</h2><p>運用者はGoogleアカウントの<a href="https://myaccount.google.com/connections">接続済みアプリの設定</a>からHomeSensorのアクセス許可を取り消せます。取消し後は、再認証するまで新たなDrive保存ができなくなります。Driveに保存済みのファイルはDrive上で削除し、必要に応じて機器内の認証設定・一時記録・別途作成したバックアップも削除してください。許可の取消しだけで保存済みファイルが自動削除されるわけではありません。</p></section>
+    <section><h2>6. このWebサイトについて</h2><p>本サイトにログイン機能、データ入力フォーム、独自のアクセス解析タグ、広告は設置していません。GitHub Pagesによる配信に関する情報の取扱いは、<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHubのプライバシーステートメント</a>をご確認ください。</p></section>
+    <section><h2>7. 問い合わせと変更</h2><p>運用者は<a href="https://github.com/ytkm-lab">ytkm-lab</a>です。本ページに関するお問い合わせは<a href="https://github.com/ytkm-lab/ytkm-lab.github.io/issues">公開元リポジトリのIssues</a>へお願いします。公開の場に認証情報や実際のセンサーログを投稿しないでください。取扱いを変更した場合は、本ページと最終更新日を更新します。</p></section>
+    <p><a class="button" href="./">HomeSensorの紹介へ戻る <span aria-hidden="true">→</span></a></p>
+  </main>
+  <footer><span>HomeSensor · ytkm-lab</span><a href="./">アプリについて</a></footer>
+</body>
+</html>
