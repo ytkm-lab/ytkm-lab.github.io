@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HomeSensorは、温湿度やスマートプラグの状態を記録し、本人のGoogle Driveへ保存する個人利用のアプリです。">
+  <title>HomeSensor — 個人用の環境記録</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><a class="brand" href="./"><span class="mark" aria-hidden="true">H</span>HomeSensor</a><nav aria-label="メイン"><a href="privacy.html">プライバシーポリシー</a></nav></header>
+  <main>
+    <p class="eyebrow">PERSONAL ENVIRONMENT LOG</p>
+    <h1>環境の変化を記録し、<br>自分のDriveへ。</h1>
+    <p class="lead">HomeSensorは、植物や住環境の観察のために、温度・湿度、スマートプラグの電源状態、地域の気象情報を時系列で保存する個人利用のアプリです。</p>
+    <section aria-labelledby="purpose"><h2 id="purpose">何をするアプリですか</h2><p>運用者本人のRaspberry Piでセンサーの値を定期的に取得し、記録データをCSVにまとめて本人のGoogle Driveに保存します。季節による温度変化や暖房用プラグの状態を振り返るために利用します。</p><p>このWebサイトはアプリの紹介とデータの取扱いを説明するためのもので、センサーデータを表示するダッシュボードではありません。</p></section>
+    <section aria-labelledby="google"><h2 id="google">Google Driveへのアクセスについて</h2><p>記録ファイルを本人のDriveに保存するため、Googleの認証を利用します。要求する権限は<code>drive.file</code>です。本人が許可した、このアプリで作成するファイルやフォルダの保存・読取りに使用します。</p><p>このアプリは運用者本人の利用を目的としており、第三者向けのユーザー登録機能は提供していません。</p><a class="button" href="privacy.html">データの取扱いを確認する <span aria-hidden="true">→</span></a></section>
+    <section aria-labelledby="operator"><h2 id="operator">運用・問い合わせ</h2><p>運用者：<a href="https://github.com/ytkm-lab">ytkm-lab</a></p><p>公開ページに関するお問い合わせは、<a href="https://github.com/ytkm-lab/ytkm-lab.github.io/issues">公開元リポジトリのIssues</a>へお願いします。認証情報や実際のセンサーログは投稿しないでください。</p></section>
+  </main>
+  <footer><span>HomeSensor · ytkm-lab</span><a href="privacy.html">プライバシーポリシー</a></footer>
+</body>
+</html>
